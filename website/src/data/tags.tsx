@@ -104,8 +104,14 @@ export type TagType =
   | "serverlessapi"
   | "langchain"
   | "build2024"
-  ;
-
+  | "aistudio"
+  | "apicenter"
+  | "eventgrid"
+  | "diagnosticsettings"
+  | "managedidentity"
+  | "serviceprincipal"
+  | "logicapps";
+  
 // LIST OF AVAILABLE TAGS
 // Each tag in lit about must have a defined object here
 // One or more tags can be associated per card
